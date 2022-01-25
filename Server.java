@@ -16,8 +16,8 @@ public class Server {
             dataInputStream = new DataInputStream(clientSocket.getInputStream());
             dataOutputStream = new DataOutputStream(clientSocket.getOutputStream());
 
-            receiveFile("NewFile1.pdf");
-            receiveFile("NewFile2.pdf");
+            receiveFile("NewFile1.txt");
+            receiveFile("NewFile2.txt");
 
             dataInputStream.close();
             dataOutputStream.close();
